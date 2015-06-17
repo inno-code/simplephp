@@ -12,7 +12,10 @@ a:active  {color:#ff0000; background-color:transparent; text-decoration:underlin
 .linkbox {
     background-color: silver;
     text-align: center;
-    float: left;
+    //linkbox position affacts parabox. when it is fixed, parabox sticks to the bottom of linkbox.
+    position:static;
+    top: 0px;
+    left: 0px;
     font-size: 23px;
     height: 10px;
     width: 1200px;
@@ -27,9 +30,10 @@ a:active  {color:#ff0000; background-color:transparent; text-decoration:underlin
     // fixed by changing color.
     //why positioning doesn't work?
     position: relative;
+    //still not working.
     top: 100px;
-    left: 40px;
-    z-index: 10;
+    right: 300px;
+    z-index: 20;
     height: 400px;
     width: 800px;
     font-family: "Times New Roman";
