@@ -12,7 +12,7 @@ a:active  {color:#ff0000; background-color:transparent; text-decoration:underlin
 .linkbox {
     background-color: silver;
     text-align: center;
-    //linkbox position affacts parabox. when it is fixed, parabox sticks to the bottom of linkbox.
+    /*linkbox position affacts parabox. when it is fixed, parabox sticks to the bottom of linkbox.*/
     position:static;
     top: 0px;
     left: 0px;
@@ -26,20 +26,32 @@ a:active  {color:#ff0000; background-color:transparent; text-decoration:underlin
 
 .parabox {
     background-color: blue;
-    // the box background color dosen't show.
-    // fixed by changing color.
-    //why positioning doesn't work?
-    position: relative;
-    //still not working.
-    top: 100px;
-    right: 300px;
+    /* the box background color dosen't show.*/  
+    /* fixed by changing color.*/
+    /*why positioning doesn't work?*/
+    position: fixed;
+    /*still not working.*/
+    top: 170px;
+    right: 280px;
     z-index: 20;
     height: 400px;
     width: 800px;
     font-family: "Times New Roman";
     font-size: 20px;
     text-align: center;
+    
+
+.redbox {
+    z-index:30;
+    background-color: red;
+    height: 10px;
+    width: 600px;
+    position: static;
+    top: 190px;
+    right: 290px;
+    
 }
+
 h1 {
     color: red;
     text-align: center;
