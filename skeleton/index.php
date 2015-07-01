@@ -13,6 +13,7 @@
     <a href= "about.php"> About US</a>
     <a href="events.php"> Events</a>
     <a href="login.php">Login</a>
+    <a href="w3school_string.php">Experiment Link</a>
 </div>
 
 <div class="parabox">
