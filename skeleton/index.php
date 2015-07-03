@@ -25,9 +25,10 @@
 </div>
 
 <div class="redbox">
-    <p>
+    <!--why can't I use inline style to change the size of <p> conetent </p>-->
+     <p>
        I'm a red box. 
-    </p>
+    </p>  
 </div>
 
 </body>

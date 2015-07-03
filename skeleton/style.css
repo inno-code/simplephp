@@ -39,16 +39,19 @@ a:active  {color:#ff0000; background-color:transparent; text-decoration:underlin
     font-family: "Times New Roman";
     font-size: 20px;
     text-align: center;
+}
     
 
 .redbox {
     z-index:30;
     background-color: red;
-    height: 10px;
+    height: 100px;
     width: 600px;
-    position: static;
-    top: 190px;
-    right: 290px;
+    position: fixed;
+    top: 350px;
+    right: 400px;
+    text-align: center;
+    font-size: 25px;
     
 }
 
