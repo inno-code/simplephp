@@ -1,0 +1,62 @@
+body {
+    background-color: yellow;
+    z-index: 0;
+}
+
+
+a:link    {color:#000000; background-color:transparent; text-decoration:none}
+a:visited {color:#000000; background-color:transparent; text-decoration:none}
+a:hover   {color:#ff0000; background-color:transparent; text-decoration:underline}
+a:active  {color:#ff0000; background-color:transparent; text-decoration:underline}
+
+.linkbox {
+    background-color: silver;
+    text-align: center;
+    /*linkbox position affacts parabox. when it is fixed, parabox sticks to the bottom of linkbox.*/
+    position:static;
+    top: 0px;
+    left: 0px;
+    font-size: 23px;
+    height: 10px;
+    width: 1200px;
+    padding: 25px;
+    margin: 25px:
+    z-index: 10;
+}
+
+.parabox {
+    background-color: blue;
+    /* the box background color dosen't show.*/  
+    /* fixed by changing color.*/
+    /*why positioning doesn't work?*/
+    position: fixed;
+    /*still not working.*/
+    top: 170px;
+    right: 280px;
+    z-index: 20;
+    height: 400px;
+    width: 800px;
+    font-family: "Times New Roman";
+    font-size: 20px;
+    text-align: center;
+}
+    
+
+.redbox {
+    z-index:30;
+    background-color: red;
+    height: 100px;
+    width: 600px;
+    position: fixed;
+    top: 350px;
+    right: 400px;
+    text-align: center;
+    font-size: 25px;
+    
+}
+
+h1 {
+    color: red;
+    text-align: center;
+}
+
